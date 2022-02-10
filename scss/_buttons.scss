@@ -1,0 +1,42 @@
+
+@import 'variatables';
+
+
+%btn {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+
+    
+     }
+
+     .primary-button  {
+      
+        background-color: $Strong-Cyan;
+        color: $White;
+        @extend %btn;
+
+
+            }
+
+     .secondary-button {
+
+    background-color: $Grayish-Blue;
+    color: $White;
+    @extend %btn;
+
+
+     }
+    
+
+
+    
+    
+
+
